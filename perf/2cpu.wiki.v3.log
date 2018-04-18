@@ -1,0 +1,42 @@
+This is ApacheBench, Version 2.3 <$Revision: 1706008 $>
+Copyright 1996 Adam Twiss, Zeus Technology Ltd, http://www.zeustech.net/
+Licensed to The Apache Software Foundation, http://www.apache.org/
+
+Benchmarking 127.0.0.1 (be patient)
+
+
+Server Software:        AKENOQ
+Server Hostname:        127.0.0.1
+Server Port:            5933
+
+Document Path:          /httptest/wikipedia_russia.html
+Document Length:        954824 bytes
+
+Concurrency Level:      100
+Time taken for tests:   91.942 seconds
+Complete requests:      100000
+Failed requests:        0
+Total transferred:      95496400000 bytes
+HTML transferred:       95482400000 bytes
+Requests per second:    1087.64 [#/sec] (mean)
+Time per request:       91.942 [ms] (mean)
+Time per request:       0.919 [ms] (mean, across all concurrent requests)
+Transfer rate:          1014314.28 [Kbytes/sec] received
+
+Connection Times (ms)
+              min  mean[+/-sd] median   max
+Connect:        0    0   0.4      0      18
+Processing:     3   92  22.4     84     259
+Waiting:        1   88  22.5     83     257
+Total:          8   92  22.4     85     259
+
+Percentage of the requests served within a certain time (ms)
+  50%     85
+  66%     90
+  75%     96
+  80%    100
+  90%    118
+  95%    133
+  98%    166
+  99%    191
+ 100%    259 (longest request)
